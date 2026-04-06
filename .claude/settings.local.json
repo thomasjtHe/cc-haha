@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C D:/claude-code log --oneline -5)",
+      "Bash(npm ls:*)",
+      "Bash(echo $PATH)",
+      "Bash(chmod:*)",
+      "Bash(duck --version)",
+      "Bash(grep -r \"process\\\\.argv\\\\[0\\\\]\\\\|argv0\\\\|\\\\bclaude\\\\b\" D:/claude-code/src --include=*.ts --include=*.tsx -l)",
+      "Bash(grep -rn \"argv0\\\\|process\\\\.argv\\\\[0\\\\]\" D:/claude-code/src --include=*.ts --include=*.tsx)",
+      "Bash(grep:*)"
+    ]
+  }
+}
